@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Tienda Simpsons</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      h1, p{
+          color: black;
+      }
+      h2, h5{
+          font-size: 20px;
+          color: darkblue;
+      }
+
+      body{
+          background-color:lightgrey;
+      }
+
+      .parrafo{
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 20px;
+          text-align: center;
+          
+      }
+
+      .card-text{
+          font-size: 15px;
+      }
+    </style>
+
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+        <img width="40px" height="40px" src="img/logo.png" alt="">
+      <a class="navbar-brand" href="#"> LA TIENDA SIMPSONS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Incio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tienda.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a href="registro.html" class="nav-link">Registrarse </a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Click</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="bd-placeholder-img" width="100%" height="100%" src="img/img1.jpg" alt="">
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Tienda Onlinne Especializada En El Mundo De Los Simpsons</h1>
+            <p>Los mejores precios...</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="bd-placeholder-img" width="100%" height="100%" src="img/img2.webp" alt="">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Encuentra Los Mejores Productos.</h1>
+            
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="bd-placeholder-img" width="100%" height="100%" src="img/img3.jpg" alt="">
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Envios a todo el Pais.</h1>      
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div> <br>
+
+
+
+
+  <div class="container marketing">
+    <div class="row">
+      <div class="col-lg-4">
+       <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/img4.jpg" alt="">
+        <h2>CONTAMOS CON TODAS LAS FORMAS DE PAGO</h2>
+        <p>Puedes finalizar tu proceso de compra utilizando las tarjetas más utilizadas</p>
+        
+      </div>
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/img5.jpg" alt="">
+
+        <h2>ENCUENTRA AQUÍ LOS MEJORES DESCUENTOS</h2>
+        <p>Encuentra cientos de productos de Los Simpsons en nuestra tienda con descuentos de hasta el -50%.</p>
+        <br>
+        <h3>Registrate y obtén un descuento en nuestros productos...</h3>
+        <p><a class="btn btn-secondary" href="registro.html">Registrarse &raquo;</a></p>
+      </div>
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/img6.jpg" alt="">
+
+        <h2>REALIZAMOS ENVÍOS EN 24H A TODA COLOMBIA</h2>
+        <p>Compra tus productos de Los Simpsons en nuestra tienda online y recíbelo en casa..</p>
+        
+      </div>
+    </div>
+
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading"> Historia De Los Simpsons <span class="text-muted">Breve Resumen... </span></h2>
+        <p class="lead"> <b>Los Simpson. Fue emitida por la Cadena Fox desde 1989, "Los Simpson" son ya todo un clásico de la televisión mundial, una insuperable serie que narra las historias de una peculiar familia (Homer, Marge, Bart, Maggie y Lisa Simpson) y otros divertidos personajes de la singular localidad norteamericana de Springfield. Homer es el padre, un desastroso inspector de seguridad de la central nuclear. Marge es la madre, una ama de casa que soporta como puede todo lo que le rodea, que no es poco. Bart es un niño de 10 años que alegra su vida realizando travesuras de todo tipo. Lisa es la más inteligente de la familia, que siempre busca hacerse un hueco en el mundo que le rodea, y la más pequeña, Maggie, un bebé que todavía no habla, pero que sin embargo da mucho que hablar. Toda una familia con una vida repleta de eventos y locuras.</b> </p>
+      </div>
+      <div class="col-md-5">
+        <img width="500" height="350" src="img/img7.jpg" alt="">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Coleccion De Figuras <span class="text-muted"></span></h2>
+        <p class="lead"> <b>encuentras fabulosas ofertas en Figuras de acción de los Simpson y mucho mas... </b>  </p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img width="400" height="350" src="img/img8.webp" alt="">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <p class="parrafo"> <b> Para toda aquella gente que desea tener la facilidad de comprar desde su casa hemos creado la tienda online Simpson, donde encontrarás todo tipo de artículos de los Simpsons a un solo clic de tenerlo en tu casa en 24hr. Por ello hemos creado esta tienda de Simpson, porque creemos que necesitas tener a tu personaje favorito fuera de la pantalla ya sea plasmado en una camiseta, un peluche o lo que más te guste. Queda en tus manos elegir que producto de los Simpson te vas a llevar contigo ! </b></p>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img height="350px" src="img/Bart_simpson.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bart</h5>
+              <p class="card-text">Bart es el problemático de la familia. Su rol principal es el de hacer travesuras, además de meterse él mismo en líos o a los demás, y así generar tramas para los episodios. Su presencia en la familia también plantea los problemas típicos que conlleva la convivencia de dos hermanos de poca diferencia de edad que suelen contrastar en sus intereses personales. Bart refleja el típico preadolescente rebelde que empieza a sentirse mayor y quiere deshacerse de la vigilancia de sus padres, cosa que rara vez consigue. Los guionistas de la serie lo tratan como el protagonista de la misma, por lo que pocas veces es castigado por las malas acciones que comete, sobre todo defendiéndolo bajo la protección de una madre excesivamente cariñosa.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img height="350px" src="img/lisa.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lisa</h5>
+              <p class="card-text">Lisa Simpson desempeña las funciones cotidianas de una niña de su edad, como son ir al colegio y realizar algunas tareas en su hogar. No obstante, cuenta con la ventaja de ser superdotada, algo corroborado por el psicólogo del colegio en el capítulo Lisa's Sax. Esto hace que su rendimiento escolar sea elevado y tenga intereses peculiares con respecto a otros compañeros del colegio, como son sus actividades de voluntariado y su afición a la lectura y al estudio. Sus dos roles principales en la serie consisten en plantear los problemas típicos que conlleva la convivencia de dos hermanos de diferente sexo con apenas dos años de diferencia y en cuestionar los valores del mundo adulto.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img height="350px" src="img/homero.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Homero</h5>
+              <p class="card-text">Homer Simpson realiza las típicas funciones de cabeza de familia en las telecomedias: es quien trabaja y lleva el dinero al hogar. Representa el estereotipo del estadounidense medio que se limita a ir a la taberna con sus amigos, beber cerveza, ver la televisión y asistir a algún partido de béisbol. Es grosero, incompetente, torpe, vago y descuidado, aunque demuestra tener un gran corazón en muchos episodios.10​ </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img height="350px" src="img/marge.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Marge</h5>
+              <p class="card-text">Marge hace el típico papel de madre de las telecomedias familiares, que a veces es representada como cándida, crédula, simplona u optimista. Esencialmente ella es ama de casa, abocada a los quehaceres domésticos, como limpiar, cocinar y cuidar de sus hijos, y a la gestión económica de la casa. Su rol principal en el hogar es mantener el núcleo familiar unido con su sobria visión de la realidad con los pies en la tierra, sazonado con alguna lección de civismo y moralidad, a veces, idílica y tradicional que incluso en ocasiones la ha llevado a mostrar atisbos de intolerancia. Como madre, busca que sus hijos mayores la vean como su confidente y amiga; como esposa procura mantener feliz a su marido, a veces sacrificando su bienestar, cordura y ética; y como persona gregaria, lucha por tener algunas amistades o vida social.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <footer class="pt-4 my-md-5 pt-md-5 border-top">
+
+    <div class="row">
+        <div class="col-12 col-md">
+          <img class="mb-2" src="img/logo.png" alt="" width="24" height="19">
+          <small class="d-block mb-3 text-muted">&copy; 2022</small>
+        </div>
+      
+    
+      <div class="col-6 col-md">
+        <h5>Contactanos</h5>
+        <p><b>312344213 <br> cr45-67-4a <br> tiendasim@gmail.com</b></p>
+      </div>
+     
+      <div class="col-6 col-md">
+        <h5>Información sobre los Productos Simpsons</h5>
+        <p> <b> La tienda Simpson online ofrece la mejor calidad en cada uno de sus productos con garantia hasta de 3 meses</b></p>
+      </div>
+    </div>
+    
+  </footer>
+</div>
+
+</main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+<script type="module" src="js/firebase.js"></script>
+<script type="module" src="js/registro.js"></script>
+    
+    
+  </body>
+</html>
